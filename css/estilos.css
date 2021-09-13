@@ -1,0 +1,200 @@
+       .main {
+           background: black;
+           color: whitesmoke;
+       }
+       
+       .li-menu:hover {
+           background: rgba(216, 213, 213, 0.612);
+           border-bottom: 3px solid black;
+           transition: .3s;
+       }
+       
+       .links {
+           margin-right: 10rem;
+       }
+       
+       .imagprofile2 {
+           max-width: 300px;
+       }
+       
+       .slider {
+           margin: auto;
+           width: 50vh;
+       }
+       
+       .iconos {
+           color: white;
+           font-size: 20px;
+       }
+       
+       .iconos:hover {
+           cursor: pointer;
+           color: gray;
+       }
+       
+       .iconosdiv {
+           width: 50%;
+           margin: auto;
+       }
+       /*contenido principal*/
+       
+       .contenedormain {
+           display: inline-flex;
+       }
+       
+       .imgprofile {
+           max-width: 270px;
+           border-radius: 10px;
+       }
+       
+       .texto {
+           margin-top: 2em;
+       }
+       /*skills*/
+       
+       .skills {
+           margin-top: 3em;
+       }
+       
+       .tskills {
+           text-align: center;
+           margin-top: 2em;
+           margin-bottom: 1em;
+       }
+       
+       .imagenes {
+           max-width: 90px;
+           transition: transform .2s;
+       }
+       
+       .col-skill {
+           display: inline-flex;
+           margin-top: 1em;
+       }
+       
+       .pskills {
+           margin-left: 2em;
+           width: 100px;
+           margin-top: 2em;
+       }
+       
+       .estrellas {
+           margin-left: 20px;
+           width: 150px;
+           margin-top: 2em;
+       }
+       
+       .imagenes:hover {
+           transform: scale(.7);
+       }
+       
+       .star {
+           color: gold;
+       }
+       /*footer*/
+       
+       footer {
+           background-color: black;
+           width: 100%;
+           margin-top: 1em;
+           display: inline-flex;
+       }
+       
+       .lifooter,
+       a {
+           color: white;
+           text-decoration: none;
+       }
+       
+       .lifooter a:hover {
+           color: gray;
+           border-bottom: 2px solid white;
+           width: 100px;
+       }
+       
+       .imgf {
+           max-width: auto;
+       }
+       
+       .nombreimg {
+           display: inline-flex;
+           width: auto;
+           margin: auto;
+       }
+       
+       .iconosfooter {
+           width: auto;
+           float: right;
+           margin-left: 2em;
+       }
+       
+       .iconosdiv2 {
+           margin-left: 3em;
+       }
+       
+       .cont-footer {
+           display: inline-flex;
+       }
+       
+       .pfooter {
+           margin-right: 4em;
+       }
+       /*medias query*/
+       
+       @media (min-width: 759px) {
+           .presentacion {
+               display: inline-flex;
+           }
+           .texto {
+               width: 80%;
+               margin-top: 8em;
+           }
+           .imgprofile {
+               margin-right: 6em;
+           }
+       }
+       
+       @media (max-width: 1024px) {
+           .texto {
+               margin-top: 8em;
+               width: 100%;
+           }
+       }
+       
+       @media(max-width: 298px) {
+           .imgprofile {
+               max-width: 240px;
+           }
+           .navb {
+               margin: auto;
+           }
+           .imagenes {
+               max-width: 100px;
+               margin-left: 3em;
+           }
+           .col-skill {
+               margin: auto;
+               display: block;
+           }
+           .estrellas {
+               margin-bottom: 20px;
+               margin-left: 2em;
+           }
+           .pskills {
+               margin-left: 4em;
+           }
+       }
+       
+       @media(min-width: 386px) {
+           .imgprofile {
+               margin: auto;
+               margin-left: 3em;
+           }
+       }
+       
+       @media(min-width: 540px) {
+           .imgprofile {
+               margin: auto;
+               margin-left: 6em;
+           }
+       }
